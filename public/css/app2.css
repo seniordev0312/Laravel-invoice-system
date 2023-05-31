@@ -1,0 +1,240 @@
+.hidden {
+    display: none;
+}
+
+#collapse-content {
+    display: none;
+}
+
+.barcode {
+    font-size:20px;
+
+}
+
+.card-stock {
+    background-color: #28a745;
+    color: #000000;
+    margin: 25px;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+.card-poly {
+    background-color: #007bff;
+    color: #000000;
+    margin: 25px;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+.card-body form {
+    font-size:20px;
+    font-weight: bold;
+    width: 250px;
+    height: 50px;
+    margin: 15px;
+}
+
+.card-body .form-group label {
+    font-weight: bold;
+}
+
+.card-body .form-group input {
+    font-size:15px;
+    font-weight: bold;
+    margin-top: 5px;
+    position:relative;
+}
+
+.card-body .form-group button {
+    font-size:15px;
+    margin-top: 5px;
+    position:absolute;
+    left: 240px;
+}
+
+.card-header {
+    padding: 10px;
+    margin-top: 20px;
+    font-weight: bold;
+    background-color: #286aa7;
+    color: #fff;
+    position:relative;
+}
+
+.card-product {
+    border: 2px solid #ccc;
+    font-size:16px;
+    font-weight: bold;
+    padding: 10px;
+    width: 520px;
+    height: 450px;
+    position:absolute;
+}
+
+.card-polyproduct {
+    border: 2px solid #ccc;
+    font-size:16px;
+    font-weight: bold;
+    padding: 10px;
+    width: 520px;
+    height: 450px;
+    position:absolute;
+    left: 580px;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+}
+
+.form-group label {
+    flex: 0 0 auto;
+    margin-right: 5px;
+}
+
+.form-group input {
+    flex: 1 1 auto;
+}
+
+.form-group button {
+    flex: 0 0 auto;
+    margin-left: 375px;
+}
+
+.form-group.search button {
+    margin-left: 130px;
+}
+
+.form-group #prodCode {
+    margin-right: 10px;
+}
+
+.alert-success {
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    color: #155724;
+}
+
+.alert-danger {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    color: #721c24;
+}
+
+.error {
+    font-weight: bold;
+    color: red;
+  }
+
+.success {
+    background-color: #dff0d8;
+    color: #3c763d;
+    border: 1px solid #d6e9c6;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.text-red {
+    color: red;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.text-red-price {
+    color: red;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+
+.text-green {
+    color: green;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.text-green-price {
+    color: green;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+
+.text-red.blink {
+    color: red;
+    animation: blink 1s linear infinite;
+}
+
+@keyframes blink {
+    0% {
+        color: red;
+    }
+    50% {
+        color: white;
+    }
+    100% {
+        color: red;
+    }
+}
+
+.text-green {
+    color: green;
+}
+
+img.product-photo {
+    border: 1px solid #ccc;
+    padding: 10px;
+    max-width: 280px;
+    max-height: 240px;
+    position:absolute;
+    right: 5px;
+    top: 200px;
+}
+
+p.inventory-text {
+    margin-top: 0px;
+    font-size: 1.6em;
+}
+
+p.instock-text {
+    font-size: 1.4em;
+}
+
+p.barcode-text {
+    font-size: 1em;
+    position:absolute;
+    right: 25px;
+    top: 5px;
+}
+
+span.product-code {
+    color: #0d971f;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.color-text {
+    font-weight: bold;
+    color: red;
+  }
+
+  .couleur-text {
+    font-weight: normal;
+    color: blue;
+  }
+
+  .color-id-text {
+    font-weight: bold;
+    color: green;
+  }
+
+  .size-text {
+    font-weight: bold;
+    color: red;
+  }
+
+  .size-id-text {
+    font-weight: bold;
+    color: green;
+  }

@@ -1,0 +1,398 @@
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#wb_label-latexcare
+{
+   vertical-align: top;
+   position:absolute;
+   left:42px;
+   top:20px;
+   width:214px;
+   height:292px;
+   z-index:0;
+}
+#label-latexcare
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Image2
+{
+   vertical-align: top;
+   position:absolute;
+   left:70px;
+   top:470px;
+   width:1px;
+   height:0px;
+   z-index:1;
+}
+#Image2
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_label-logo
+{
+   vertical-align: top;
+   position:absolute;
+   left:70px;
+   top:640px;
+   width:178px;
+   height:64px;
+   z-index:-1;
+}
+#label-logo
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Line1
+{
+   font-size: 0;
+   position:absolute;
+   left:56px;
+   top:716px;
+   width:198px;
+   height:1px;
+   z-index:3;
+}
+#Line1
+{
+   border-width: 0;
+   height: 8px;
+   width: 206px;
+}
+#wb_Line2
+{
+   font-size: 0;
+   position:absolute;
+   left:56px;
+   top:765px;
+   width:198px;
+   height:1px;
+   z-index:4;
+}
+#Line2
+{
+   border-width: 0;
+   height: 8px;
+   width: 206px;
+}
+#wb_Line3
+{
+   font-size: 0;
+   position:absolute;
+   left:56px;
+   top:801px;
+   width:198px;
+   height:1px;
+   z-index:5;
+}
+#Line3
+{
+   border-width: 0;
+   height: 8px;
+   width: 206px;
+}
+#wb_Style
+{
+   color:#696969;
+   font-family:Arial;
+   font-size:13px;
+   position:absolute;
+   left:60px;
+   top:700px;
+   width:40px;
+   height:15px;
+   z-index:6;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+
+#wb_Color
+{
+   color:#696969;
+   font-family:Arial;
+   font-size:13px;
+   position:absolute;
+   left:60px;
+   top:723px;
+   width:70px;
+   height:30px;
+   z-index:7;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+
+#wb_Color div
+{
+   text-align: left;
+   font-weight: bold;
+   color:#6d0d0d;
+
+}
+
+#wb_Size
+{
+   color:#696969;
+   font-family:Arial;
+   font-size:13px;
+   position:absolute;
+   left:60px;
+   top:775px;
+   width:84px;
+   height:30px;
+   z-index:8;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+
+#wb_Price
+{
+   color:#696969;
+   font-family:Arial;
+   font-size:13px;
+   position:absolute;
+   left:60px;
+   top:813px;
+   width:84px;
+   height:30px;
+   z-index:9;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+
+#wb_label-image {
+    position:absolute;
+    padding: 0;
+    top: 410px;
+    left:60px;
+    width: 186px;
+    height: 238px;
+  }
+#wb_label-image img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#wb_label-style
+{
+   position:absolute;
+   left:107px;
+   top:700px;
+   width:140px;
+   height:15px;
+   z-index:11;
+   font-size:17px;
+   font-weight: bold;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+
+#wb_label-color
+{
+   position:absolute;
+   left:105px;
+   top:723px;
+   width:179px;
+   height:15px;
+   z-index:10;
+   font-size:12px;
+   font-weight: bold;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+
+#wb_label-couleur
+{
+   position:absolute;
+   left:119px;
+   top:739px;
+   width:179px;
+   height:15px;
+   z-index:13;
+   font-size:12px;
+   font-weight: bold;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+
+#wb_label-size
+{  position:absolute;
+   left:133px;
+   top:778px;
+   width:151px;
+   height:24px;
+   z-index:14;
+   font-size:24px;
+   font-weight: bold;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+
+#wb_label-barcode
+{
+   color:#000000;
+   font-family:Arial;
+   font-size:13px;
+   position:absolute;
+   left:45px;
+   top:840px;
+   width:235px;
+   height:45px;
+   text-align:center;
+   z-index:15;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+}
+
+#wb_label-option
+{
+   position:absolute;
+   left:60px;
+   top:754px;
+   width:238px;
+   height:15px;
+   z-index:16;
+   font-size:8px;
+   color:#f80808;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+
+#wb_label-extra
+{
+
+   position:absolute;
+   left:212px;
+   top:513px;
+   width:116px;
+   height:10px;
+   z-index:18;
+   color:#f80808;
+   font-size:12px;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+   transform: rotate(270deg);
+}
+
+#wb_label-extra2
+{
+   position:absolute;
+   left:0px;
+   top:515px;
+   width:145px;
+   height:40px;
+   z-index:17;
+   color:#f80808;
+   font-size:15px;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+   transform: rotate(270deg);
+}
+#wb_date {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    transform: rotate(180deg);
+    position:absolute;
+    left:215px;
+    top:337px;
+    width:39px;
+    height:15px;
+    z-index:19;
+    font-size:7px;
+}
+
+#wb_date span {
+    display: inline-block;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}

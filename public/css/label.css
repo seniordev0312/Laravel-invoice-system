@@ -1,0 +1,651 @@
+.barcode {
+    font-size:20px;
+    text-align: center;
+
+}
+
+#add-text {
+    font-size:20px;
+    color: #00af0fa2;
+}
+
+#selected-photo {
+    width: 250px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.btn-primary {
+    display: inline-block;
+    height: 35px;
+    box-sizing: border-box;
+    margin: 25px 2px 2px 2px;
+    padding: 10px 16px 10px 16px;
+    border: 1px solid #0275D8;
+    border-radius: 4px;
+    background-color: #0275D8;
+    background-image: none;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 13px;
+}
+
+.btn-success {
+    display: inline-block;
+    height: 35px;
+    box-sizing: border-box;
+    margin: 25px 2px 2px 2px;
+    padding: 10px 16px 10px 16px;
+    border: 1px solid #d84602;
+    border-radius: 4px;
+    background-color: #d84602;
+    background-image: none;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 13px;
+}
+
+.btn-danger {
+    display: inline-block;
+    height: 35px;
+    box-sizing: border-box;
+    margin: 25px 2px 2px 2px;
+    padding: 10px 16px 10px 16px;
+    border: 1px solid #d80202;
+    border-radius: 4px;
+    background-color: #d80202;
+    background-image: none;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 13px;
+}
+
+.btn-add {
+    display: inline-block;
+    height: 35px;
+    box-sizing: border-box;
+    margin: 25px 2px 2px 2px;
+    padding: 10px 16px 10px 16px;
+    border: 1px solid #00af0fa2;
+    border-radius: 4px;
+    background-color: #00af0fa2;
+    background-image: none;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 13px;
+}
+
+#CardContainer1 {
+    display: flex;
+    position: fixed;
+    padding: 5px 5px 5px 5px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: flex-start;
+    margin: 0;
+    background-color: transparent;
+    background-image: none;
+    border: 0px solid #000000;
+    border-radius: 0px;
+    box-sizing: border-box;
+    font-size: 0;
+
+
+ }
+
+ #wb_Card1 {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+    align-self: auto;
+    box-sizing: border-box;
+    margin: 0;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    text-align: left;
+ }
+
+ #Card1-card-body {
+    padding: 0;
+    flex: 1 1 auto;
+    font-size: 0;
+ }
+
+ #Card1-card-item1 {
+    line-height: 2;
+    box-sizing: border-box;
+    margin: 20px 20px 0 20px;
+    padding: 0px 20px;
+    color: #000000;
+    font-family: Arial;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 14px;
+    width: 675px;
+    height: 250px;
+ }
+
+ #print-btn {
+    display: inline-block;
+    height: 35px;
+    box-sizing: border-box;
+    margin: 25px 2px 2px 2px;
+    padding: 10px 16px 10px 16px;
+    border: 1px solid #0275D8;
+    border-radius: 4px;
+    background-color: #0275D8;
+    background-image: none;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 13px;
+ }
+
+ #add-btn {
+     display: inline-block;
+     height: 35px;
+     box-sizing: border-box;
+     margin: 25px 2px 2px 2px;
+     padding: 3px 3px 3px 3px;
+     border: 1px solid #00af0fa2;
+     border-radius: 4px;
+     background-color: #00af0fa2;
+     background-image: none;
+     color: #000000;
+     font-family: Arial;
+     font-weight: normal;
+     font-style: normal;
+     font-size: 13px;
+  }
+
+  #CardContainer2 {
+     display: flex;
+     position: fixed;
+     padding: 5px 5px 5px 5px;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: flex-start;
+     align-items: stretch;
+     align-content: flex-start;
+     margin: 0;
+     background-color: transparent;
+     background-image: none;
+     border: 0px solid #000000;
+     border-radius: 0px;
+     box-sizing: border-box;
+     font-size: 0;
+     width: 300px;
+     left: 1000px;
+
+  }
+
+ #wb_Card2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+    align-self: auto;
+    box-sizing: border-box;
+    margin: 0;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    text-align: left;
+ }
+
+ #Card2-card-body {
+    padding: 0;
+    flex: 1 1 auto;
+    font-size: 0;
+
+ }
+
+ #Card2-card-item1
+ {
+    box-sizing: border-box;
+    margin: 20px 20px 0 20px;
+    padding: 0;
+    color: #000000;
+    font-family: Arial;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 14px;
+
+ }
+
+ .btn-container {
+     display: flex; /* Use flexbox to arrange the child divs */
+   }
+
+ .print-btn, .add-btn {
+     width: 250px; /* Set the width of each child div to 45% */
+     padding: 0px; /* Add padding to each child div */
+     text-align: left; /* Center text horizontally in each child div */
+   }
+
+ #selected-style,
+ #selected-color,
+ #selected-couleur,
+ #selected-size,
+ #selected-option,
+ #selected-extra,
+ #selected-photoID {
+    color: rgb(17, 0, 255); /* Set the text color to red */
+ }
+
+#CardContainer3 {
+    display: flex;
+    position: fixed;
+    padding: 5px 5px 5px 5px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: flex-start;
+    margin: 0;
+    background-color: transparent;
+    background-image: none;
+    border: 0px solid #000000;
+    border-radius: 0px;
+    box-sizing: border-box;
+    font-size: 0;
+}
+
+#wb_Card3 {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+    align-self: auto;
+    box-sizing: border-box;
+    margin: 0;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    text-align: left;
+}
+
+#Card3-card-body {
+    padding: 0;
+    flex: 1 1 auto;
+    font-size: 0;
+}
+
+#Card3-card-item1 {
+    line-height: 2;
+    box-sizing: border-box;
+    margin: 20px 20px 0 20px;
+    padding: 0px 20px;
+    color: #000000;
+    font-family: Arial;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 12px;
+    width: 575px;
+    height: 10px;
+}
+#Card3-card-item2 {
+    line-height: 2;
+    box-sizing: border-box;
+    margin: 20px 20px 0 20px;
+    padding: 0px 20px;
+    color: #000000;
+    font-family: Arial;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 12px;
+    width: 575px;
+    height: 280px;
+}
+
+#CardContainer4 {
+    display: flex;
+    position: fixed;
+    padding: 1px 5px 5px 5px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: flex-start;
+    margin: 0;
+    background-color: transparent;
+    background-image: none;
+    border: 0px solid #000000;
+    border-radius: 0px;
+    box-sizing: border-box;
+    width: 200px;
+     left: 900px;
+
+}
+
+#wb_Card4 {
+    top: 80px;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+    align-self: auto;
+    box-sizing: border-box;
+    margin: 0;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    text-align: left;
+}
+
+#Card4-card-body {
+    
+    padding: 0;
+    flex: 1 1 auto;
+    font-size: 0;
+}
+
+#Card4-card-item1 {
+    line-height: 2;
+    box-sizing: border-box;
+    margin: 10px 20px 0 20px;
+    padding: 0px 20px;
+    color: #000000;
+    font-family: Arial;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 12px;
+    width: 545px;
+    height: 300px;
+}
+
+#CardContainer5 {
+    display: flex;
+    position: fixed;
+    padding: 5px 5px 5px 5px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: flex-start;
+    margin: 0;
+    background-color: transparent;
+    background-image: none;
+    border: 0px solid #000000;
+    border-radius: 0px;
+    box-sizing: border-box;
+    font-size: 0;
+    left: 250px;
+
+}
+
+#CardContainer6 {
+    display: flex;
+    position: fixed;
+    padding: 5px 5px 5px 5px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: flex-start;
+    margin: 0;
+    background-color: transparent;
+    background-image: none;
+    border: 0px solid #000000;
+    border-radius: 0px;
+    box-sizing: border-box;
+    font-size: 0;
+}
+
+#wb_Card6 {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+    align-self: auto;
+    box-sizing: border-box;
+    margin: 0;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    text-align: left;
+}
+
+#Card6-card-body {
+    padding: 0;
+    flex: 1 1 auto;
+    font-size: 0;
+}
+
+#Card6-card-item1 {
+    line-height: 2;
+    box-sizing: border-box;
+    margin: 20px 20px 0 20px;
+    padding: 0px 20px;
+    color: #000000;
+    font-family: Arial;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 12px;
+    width: 575px;
+    height: 10px;
+}
+
+#Card6-card-item2 {
+    line-height: 2;
+    box-sizing: border-box;
+    margin: 20px 20px 0 20px;
+    padding: 0px 20px;
+    color: #000000;
+    font-family: Arial;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 12px;
+    width: 575px;
+    height: 256px;
+}
+
+#CardContainer7 {
+    display: flex;
+    position: fixed;
+    padding: 1px 5px 5px 5px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: flex-start;
+    margin: 0;
+    background-color: transparent;
+    background-image: none;
+    border: 0px solid #000000;
+    border-radius: 0px;
+    box-sizing: border-box;
+    width: 200px;
+     left: 900px;
+
+}
+
+#wb_Card7 {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+    align-self: auto;
+    box-sizing: border-box;
+    margin: 0;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    text-align: left;
+}
+
+#Card7-card-body {
+    padding: 0;
+    flex: 1 1 auto;
+    font-size: 0;
+}
+
+#Card7-card-item1 {
+    line-height: 2;
+    box-sizing: border-box;
+    margin: 10px 20px 0 20px;
+    padding: 0px 20px;
+    color: #000000;
+    font-family: Arial;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 12px;
+    width: 545px;
+    height: 300px;
+}
+
+#CardContainer8 {
+    display: flex;
+    position: fixed;
+    padding: 5px 5px 5px 5px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: flex-start;
+    margin: 0;
+    background-color: transparent;
+    background-image: none;
+    border: 0px solid #000000;
+    border-radius: 0px;
+    box-sizing: border-box;
+    font-size: 0;
+}
+
+#wb_Card8 {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+    align-self: auto;
+    box-sizing: border-box;
+    margin: 0;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    text-align: left;
+}
+
+#Card8-card-body {
+    padding: 0;
+    flex: 1 1 auto;
+    font-size: 0;
+}
+
+#Card8-card-item1 {
+    line-height: 2;
+    box-sizing: border-box;
+    margin: 20px 20px 0 20px;
+    padding: 0px 20px;
+    color: #000000;
+    font-family: Arial;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 12px;
+    height: 10px;
+}
+
+#Card8-card-item2 {
+    line-height: 2;
+    box-sizing: border-box;
+    margin: 20px 20px 0 20px;
+    padding: 0px 20px;
+    color: #000000;
+    font-family: Arial;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 12px;
+    width: 600px;
+    height: 256px;
+}
+
+#CardContainer9 {
+    display: flex;
+    position: fixed;
+    padding: 1px 5px 5px 5px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: flex-start;
+    margin: 0;
+    background-color: transparent;
+    background-image: none;
+    border: 0px solid #000000;
+    border-radius: 0px;
+    box-sizing: border-box;
+    width: 200px;
+     left: 1060px;
+
+}
+
+#wb_Card9 {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+    align-self: auto;
+    box-sizing: border-box;
+    margin: 0;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    text-align: left;
+}
+
+#Card9-card-body {
+    padding: 0;
+    flex: 1 1 auto;
+    font-size: 0;
+}
+
+#Card9-card-item1 {
+    line-height: 2;
+    box-sizing: border-box;
+    margin: 10px 20px 0 20px;
+    padding: 0px 20px;
+    color: #000000;
+    font-family: Arial;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 12px;
+    width: 545px;
+    height: 295px;
+}
